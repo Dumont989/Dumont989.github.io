@@ -52,25 +52,12 @@ let ground;
 
 
 // Materialen
-const textureLoader = new THREE.TextureLoader();
-const OSBtex = textureLoader.load(osbImage);
-OSBtex.wrapS = THREE.RepeatWrapping;
-OSBtex.wrapT = THREE.RepeatWrapping;
-OSBtex.repeat.set(2, 2);
 
-const KEPERtex = textureLoader.load(KEPERImage);
-KEPERtex.wrapS = THREE.RepeatWrapping;
-KEPERtex.wrapT = THREE.RepeatWrapping;
-KEPERtex.repeat.set(0.5, 0.5); 
 
 const OSBColorMat = new THREE.MeshStandardMaterial({ color: 0x1b7101 });
 const KeperColorMat = new THREE.MeshStandardMaterial({ color: 0x8e6103 });
 const LatColorMat = new THREE.MeshStandardMaterial({ color: 0x6d4c08 });
 
-
-
-const osbMaterial = new THREE.MeshStandardMaterial({ map: OSBtex });
-const KEPERMaterial = new THREE.MeshStandardMaterial({ map: KEPERtex });
 
 const edgeMaterial = new THREE.LineBasicMaterial({ color: 0x000000 });
 
