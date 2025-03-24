@@ -1,6 +1,5 @@
 
-import osbImage from '../img/OSB.jpg';
-import KEPERImage from '../img/KEPER.jpg';
+
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.159.0/build/three.module.js';
 import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.159.0/examples/jsm/controls/OrbitControls.js';
 
