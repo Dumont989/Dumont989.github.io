@@ -1,8 +1,8 @@
 
 import osbImage from '../img/OSB.jpg';
 import KEPERImage from '../img/KEPER.jpg';
-import * as THREE from 'https://cdn.skypack.dev/three@0.159.0'; 
-import { OrbitControls } from 'https://cdn.skypack.dev/three@0.159.0/examples/jsm/controls/OrbitControls.js';
+import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.159.0/build/three.module.js';
+import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.159.0/examples/jsm/controls/OrbitControls.js';
 
 // Het container-element van de pagina
 var container = document.getElementById('canvas');
